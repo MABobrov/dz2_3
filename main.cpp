@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main() {
+int main()  {
     int login, pass;
     printf("login=");
     scanf("%i", &login);
@@ -20,13 +20,16 @@ int main() {
                     ((new_user_login == 3333) || (new_user_pass == 4444)) ||
                     ((new_user_login == 0000) || (new_user_pass == 0000)))
                     printf("login or pass exist");
-                else {
+
+                 else{
                     if ((new_user_login>login)||(new_user_pass > pass))
                         printf("hello, %i", new_user_login);
+                    return 0;
                 }
             } else {
 
                 printf("Authorization denied");
+                return 1;
             }
 
         }
