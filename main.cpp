@@ -1,4 +1,5 @@
 #include <stdio.h>
+//https://github.com/MABobrov/dz2_3/blob/master/main.cpp
 int main()  {
     int login, pass;
     printf("login=");
